@@ -16,7 +16,7 @@ PeribahasaMY merupakan sebuah laman sesawang yang dibina bertujuan untuk mengump
 ## Screenshots
 
 ![Homepage Screenshot](readme/homepage.png)
-![Admin Screenshot](readme/admin)
+![Admin Screenshot](readme/admin.png)
 
 
 
