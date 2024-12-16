@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background pattern -->
+    <rect width="600" height="400" fill="#f8f9fa"/>
+    <path d="M50,50 Q300,0 550,50 T550,350 Q300,400 50,350 T50,50" fill="#e3f2fd" opacity="0.5"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="150" cy="200" r="80" fill="#bbdefb" opacity="0.3"/>
+    <circle cx="450" cy="200" r="100" fill="#90caf9" opacity="0.2"/>
+    
+    <!-- Stylized book -->
+    <path d="M250,150 h100 v200 h-100 v-200" fill="#1976d2" opacity="0.9"/>
+    <path d="M250,150 c0,-20 100,-20 100,0" fill="#1976d2" opacity="0.9"/>
+    <path d="M250,350 c0,20 100,20 100,0" fill="#1565c0" opacity="0.9"/>
+    
+    <!-- Text lines representation -->
+    <rect x="270" y="180" width="60" height="4" rx="2" fill="white" opacity="0.7"/>
+    <rect x="270" y="200" width="40" height="4" rx="2" fill="white" opacity="0.7"/>
+    <rect x="270" y="220" width="50" height="4" rx="2" fill="white" opacity="0.7"/>
+</svg>

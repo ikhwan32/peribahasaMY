@@ -1,0 +1,80 @@
+/* Custom styles for Peribahasa website */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.05);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+.peribahasa-of-day {
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Search specific styles */
+#liveSearchResults {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+}
+
+#liveSearchResults .list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+#liveSearchResults .list-group-item:first-child {
+    border-top: none;
+}
+
+#liveSearchResults .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.search-highlight {
+    background-color: #fff3cd;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+/* Hero section styles */
+.hero-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    #liveSearchResults {
+        max-height: 300px;
+    }
+}
